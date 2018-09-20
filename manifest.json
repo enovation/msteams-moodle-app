@@ -1,0 +1,43 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.3/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.3",
+    "version": "0.1.0",
+    "id": "2b3d2b66-da81-47c3-972e-31d1331d8cc7",
+    "packageName": "ie.enovation.ms.teams.moodletab",
+    "developer": {
+        "name": "Moodle Tab",
+        "websiteUrl": "https://enovation.ie",
+        "privacyUrl": "https://enovation.ie",
+        "termsOfUseUrl": "https://enovation.ie"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Moodle Tab for Teams",
+        "full": "Moodle Tab for Teams"
+    },
+    "description": {
+        "short": "Moodle Tab for Teams",
+        "full": "Moodle Tab for Teams"
+    },
+    "accentColor": "#FFFFFF",
+    "configurableTabs": [
+        {
+            "configurationUrl": "https://enoms.enovation.ie/local/o365teams/tab_configuration.php",
+            "canUpdateConfiguration": true,
+            "scopes": [
+                "team"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "enoms.enovation.ie",
+        "unpkg.com"
+    ]
+}
